@@ -1,9 +1,4 @@
-     else:
-                         print("\n\n \033[00m[\033[91m!\033[00m] Wrong Input!")
-                         yayanxd()
-                   print()
-                   ikeh_ikeh_kimochi()
-                   jembut()
+
                    print('\n\x1b[1;96m        ✰★✰╭⍝╮⎝҂⚆⏝⚆⍀⎠╭⍝╮✰★✰')
                    print('\x1b[1;95m     疊╔═╦═────••♽••─────═╦═╗疊')
                    print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(len(id)) + "\n\x1b[1;95m     疊╚═╩═────••♽••─────═╩═╝疊\n",end="")       
