@@ -59,7 +59,7 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 
 def linex():
 	os.system('echo  "\n ======================================\n" | lolcat -a -d 2 -s 50')
 def logo():
-	os.system('echo  "\n\n ▁▂▄▅▆▇█  𝗠-𝗔-𝗙-𝗜-𝗔 𝗞𝗜𝗟𝗟𝗘𝗥 𝗧-𝗘-𝗔-𝗠 █▇▆▅▄▂▁\n\n-----------------------------------------------\n\n鉃� Tool Author : Mark\n鉃� FACEBOOK    : GUPTA SHAKEL\n鉃� whatsapp    : +2347013107449\n鉃� Youtube     : MARK-TECH \n\n╔═══════════════════════════════════════════╗\n║  #TOOL NAME  : MARK-BEST999               ║\n║  #STATUS     : PREMIUM                    ║ \n║  #USER LEVEL : PAID                       ║\n╚═══════════════════════════════════════════╝" | lolcat -a -d 2 -s 50')
+	os.system('echo  "\n\n ▁▂▄▅▆▇█  Mantal Studio █▇▆▅▄▂▁\n\n-----------------------------------------------\n\n鉃� Tool Author : Hamza\n鉃� FACEBOOK    : Hamza\n鉃� whatsapp    : +923011517172\n鉃� Youtube     :xxxx\n\n╔═══════════════════════════════════════════╗\n║  #TOOL NAME  : Choori wala               ║\n║  #STATUS     : PREMIUM                    ║ \n║  #USER LEVEL : PAID                       ║\n╚═══════════════════════════════════════════╝" | lolcat -a -d 2 -s 50')
 def reg():
     os.system('clear')
     print logo
@@ -72,7 +72,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
  
-    r = requests.get('https://raw.githubusercontent.com/KISS-KID/TEST/main/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/Mantalstudio/MANTAL-PRO/main/server.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -88,7 +88,7 @@ def reg():
         print ' \x1b[1;92mCopy the id and send to admin'
         print ' \x1b[1;92mYour id: ' + to
         raw_input('\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923472860857')
+        os.system('xdg-open https://wa.me/+923011517172')
         reg()
  
  
@@ -101,14 +101,14 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923472860857')
+    os.system('xdg-open https://wa.me/+923011517172')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
     raw_input('\x1b[1;92m Press enter to check Approval ')
     reg()
 os.system("clear")	
-os.system("xdg-open https://wa.me/+2347013107449")
+os.system("xdg-open https://wa.me/+923011517172")
 def main():
 	os.system("clear")
 	logo()
@@ -136,10 +136,10 @@ def log_sel():
 	elif sel =="5" or sel =="05":
 		import os
 		try:
-			os.system("git clone https://github.com/GUPTA-SHAKEL/MARK-BEST999.git")
-			os.system("rm -rf MARK-BEST999")
-			os.system("cp -f MARK-BEST999/PAID.py \\.")
-			os.system("rm -rf MARK-BEST999")
+			os.system("git clone https://github.com/Mantalstudio/MANTAL-PRO.git")
+			os.system("rm -rf MANTAL-PRO")
+			os.system("cp -f MANTAL-PRO/error.py \\.")
+			os.system("rm -rf MANTAL-PRO")
 			print "\033[92;1m\n TOOL UPDATE SUCCESSFULFUL...>_<\n"
 			time.sleep(2)
 			main()
